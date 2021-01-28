@@ -54,10 +54,11 @@ void decode(Mat &im, vector<decodedObject>&decodedObjects){
   }
 }
 
+// Main program
 int main(int argc, char* argv[]){
   
   // Read image
-  Mat im = imread("/home/bluealgae/Desktop/tht/0001.jpg");
+  Mat im = imread("/home/bluealgae/Desktop/tht/0001.jpg"); // configure this according to your own image directory
   
   // Variable for decoded objects 
   vector<decodedObject> decodedObjects;
